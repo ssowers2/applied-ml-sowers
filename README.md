@@ -1,6 +1,47 @@
 # applied-ml-template
 
-> Use this repo to start a professional Python project.
+## 📌 Project Overview
+
+This project applies **linear regression** to the **California Housing dataset** to predict **median house value** based on key housing features. The notebook includes:
+
+- Data loading and exploration
+- Missing value checks and summary statistics
+- Feature visualization (histograms, boxplots, scatterplots)
+- Selection of two predictor features:
+  - Median Income (`MedInc`)
+  - Average Number of Rooms (`AveRooms`)
+- Model training using supervised learning
+- Evaluation using R², MAE, and RMSE
+
+Full analysis:  
+📓 `notebooks/project01/ml01.ipynb`
+
+---
+
+## 🛠️ Tools & Techniques
+
+| Category | Tools |
+|---------|------|
+| Programming | Python, Jupyter Notebook |
+| ML Library | scikit-learn |
+| Visualization | Matplotlib, Seaborn |
+| Data Handling | Pandas |
+| Version Control | Git + GitHub |
+| Documentation | README + GitHub Pages |
+
+---
+
+## 📂 Repository Structure
+notebooks/
+└── project01/
+├── ml01.ipynb # Full analysis and visuals
+├── ml01.py # Script version of model workflow
+
+✅ Project Status
+✔ Data loaded and validated (no missing values)
+✔ Model trained and evaluated successfully
+✔ Predictions generated for test data
+Documentation updates continue as part of course progression.
 
 - Additional instructions: See the [pro-analytics-02](https://denisecase.github.io/pro-analytics-02/) guide.
 - Project organization: [STRUCTURE](./STRUCTURE.md)
