@@ -6,11 +6,11 @@
 # TODO: Update site_description
 # TODO: Update site_author
 
-site_name: Applied ML Project
-site_url: https://denisecase.github.io/applied-ml-template/
-repo_url: https://github.com/denisecase/applied-ml-template
+site_name: Applied ML Projects
+site_url: https://ssowers2.github.io/applied-ml-sowers/
+repo_url: https://github.com/ssowers2/applied-ml-sowers
 site_description: Professional applied ML project
-site_author: Denise Case
+site_author: Sabriya Sowers
 docs_dir: docs
 site_dir: site
 
