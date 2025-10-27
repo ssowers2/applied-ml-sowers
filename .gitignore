@@ -83,3 +83,9 @@ site/
 .mypy_cache/
 .pytype/
 .cache/
+
+# ----------------------------------------
+# Project files to ignore
+# Ignore example notebooks + data
+/notebooks/example01/
+/notebooks/example02/
