@@ -89,3 +89,8 @@ site/
 # Ignore example notebooks + data
 /notebooks/example01/
 /notebooks/example02/
+
+# ----------------------------------------
+# Data files for assignments
+notebooks/assignments/**/*.csv
+notebooks/assignments/**/*.xlsx
