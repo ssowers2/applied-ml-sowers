@@ -79,16 +79,19 @@ The stratified split produced nearly identical class distributions in training a
 
 ---
 
-## Reflections
+### Reflections
 
-**1. Why might stratification improve model performance?**  
-It ensures each class (0, 1, 2) is represented equally in both training and testing, preventing overfitting toward dominant classes.
+**1. What did you learn from this dataset compared to Titanic?**  
+This project focused more on numbers and measurements instead of people and categories. It helped me see how chemical features like alcohol, color intensity, and proline can be just as meaningful for prediction as social features were in the Titanic dataset.  
 
-**2. Which features are most predictive?**  
-Color intensity and proline show the strongest class separation, making them highly predictive features.
+**2. How did data quality affect your process?**  
+The Wine dataset didn’t need cleaning, so I could go straight into visualization and analysis. That made it easier to focus on relationships between features instead of fixing missing data.  
 
-**3. Overall takeaway**  
-This dataset is clean, balanced, and ideal for demonstrating supervised classification. The strongest predictors combine **chemical** and **visual** properties, showing how domain-specific attributes can reveal class structure.
+**3. What did your visuals reveal?**  
+Color intensity and proline stood out as the most useful predictors since they separated the wine classes really well. Seeing those differences in scatter plots made it easier to understand how classification works.  
+
+**4. What was your overall takeaway?**  
+Both projects followed the same process—inspect, clean, visualize, and split the data—but they applied it to totally different problems. That showed me how flexible data science can be across fields.
 
 ---
 

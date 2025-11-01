@@ -73,6 +73,24 @@ Two splitting methods are compared:
 
 Stratification is important because survival is not evenly split across the dataset (more people did not survive than survived).
 
+---
+
+### Reflections
+
+**1. What did you learn from this project?**  
+Working with the Titanic dataset helped me understand how data features can describe real human behavior and outcomes. It was interesting to see how class, gender, and age all connected to survival rates.  
+
+**2. What challenges did you face?**  
+Handling missing data for fields like age and deck took extra work, and learning to encode categorical features into numbers was an important step for model preparation.  
+
+**3. What stood out most from your visuals?**  
+The patterns were clear that females and first-class passengers had much higher survival rates. The scatter plots and count plots really helped highlight this.
+
+**4. What was your biggest takeaway?**  
+The project showed how feature selection and data cleaning directly affect model accuracy. It also made me more comfortable using libraries like pandas, seaborn, and scikit-learn to prepare real-world data for analysis.
+
+---
+
 ## Tools and Libraries
 - Python
 - pandas
