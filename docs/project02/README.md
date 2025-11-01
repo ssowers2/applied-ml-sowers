@@ -98,6 +98,3 @@ The project showed how feature selection and data cleaning directly affect model
 - seaborn
 - matplotlib
 - scikit-learn
-
-## Notebook Link
-[View Full Notebook on GitHub →](https://github.com/ssowers2/applied-ml-sowers/blob/main/notebooks/project02/ml02_sowers.ipynb)

@@ -102,6 +102,3 @@ Both projects followed the same process—inspect, clean, visualize, and split t
 - seaborn  
 - matplotlib  
 - scikit-learn  
-
-## Notebook Link
-[View Full Notebook on GitHub →](../../notebooks/bonusproject01/mlbonus01_sowers.ipynb)
