@@ -1,89 +1,76 @@
-# Project 01
+# 🔹 Sabriya Sowers' Linear Regression Housing Analysis 🔹
 
-## Overview
-Businesses and organizations often need to understand the relationships between different factors to make better decisions.
-For example, a company may want to predict the fuel efficiency of a car based on its weight and engine size or estimate home prices based on square footage and location.
-Regression analysis helps identify and quantify these relationships between numerical features, providing insights that can be used for forecasting and decision-making.
-
-This project demonstrates your ability to apply regression modeling techniques to a real-world dataset. You will:
-- Load and explore a dataset.
-- Choose and justify features for predicting a target variable.
-- Train a regression model and evaluate performance.
-- Compare multiple regression approaches.
-- Document your work in a structured Jupyter Notebook.
-
-## Dataset 
-Housing Prices Dataset (Predict home values based on features like square footage and location)  
-- We use the built-in dataset from scikit-learn:  
-   - `from sklearn.datasets import fetch_california_housing`  
-- Additional dataset available on Kaggle:  
-   - [Kaggle Housing Prices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)  
-
-## Python Library for Machine Learning: scikit-learn
-We use scikit-learn, built on NumPy, SciPy, and matplotlib
-   - Read more at <https://scikit-learn.org/>
-   - Scikit-learn supports classification, regression, and clustering.
-   - This project applies regression.
-
-
-## Professional Python Setup and Workflow
-We follow professional Python practices. 
-Full instructions are available at <https://github.com/denisecase/pro-analytics-02/>. 
-
-
-**Important:** VS Code + Pylance may fail to recognize installed packages in Jupyter notebooks.  
-See the above guides for troubleshooting and solutions.  
+**Author:** Sabriya Sowers  
+**Date:** October 23, 2025  
+**Objective:** Predict the median house price in California using available housing features.
 
 ---
 
-## Project Outline
-Machine learning projects follow a structured approach.
-We will use this approach throughout the course. 
-
-Start your notebook professionally with:
-- a single top-level title
-- your name (or alias)
-- the date
-- a brief introduction that describes the problem and the dataset.
-- Import the external Python libraries used (e.g., pandas, numpy, matplotlib, seaborn, sklearn, etc.)
-
-Present your work in clearly numbered second-level and third-level headings
-
-### Section 1. Load and Explore the Data
-- 1.1 Load the dataset and display the first 10 rows.
-- 1.2 Check for missing values and display summary statistics.
-
-Analysis: What do you notice about the dataset? Are there any data issues?
-
-### Section 2. Visualize Feature Distributions
-- 2.1 Create histograms, boxplots, and scatterplots.
-- 2.2 Identify patterns or anomalies in feature distributions.
-
-Analysis: What patterns or anomalies do you see? Do any features stand out?
-
-### Section 3. Feature Selection and Justification
-- 3.1 Choose two input features for predicting the target.
-- 3.2 Justify your selection with reasoning.
-
-Analysis: Why did you choose these features? How might they impact predictions?
-
-### Section 4. Train a Linear Regression Model
-- 4.1 Define X (features) and y (target).
-- 4.2 Train a Linear Regression model using Scikit-Learn.
-- 4.3 Report R^2, MAE, RMSE.
-
-Analysis: How well did the model perform? Any surprises in the results?
-
-See [EXAMPLE_ANALYSIS](./EXAMPLE_ANALYSIS.md) for more.
+## 🧭 Overview
+This project builds a **Linear Regression** model to predict **median house value** in California based on features such as median income, average number of rooms, and house age.  
+It demonstrates the complete data science workflow — from loading and exploring data to training and evaluating a regression model.
 
 ---
 
-## README.md (Required)
+## 📦 Technologies Used
+- Python 3.x  
+- pandas, NumPy  
+- seaborn, matplotlib  
+- scikit-learn (sklearn)
 
-Include a professional README.md. Include:
-- a personalized title
-- an introduction to your project
-- a clickable link to your notebook file.
-- Instructions on how to set up your virtual environment and run your notebook locally.
-   
-If starting with an assignment README, remove the parts you do not need to present your project.
+---
+
+## 📊 Dataset
+The dataset used is the **California Housing Dataset**, provided by `sklearn.datasets.fetch_california_housing`.
+
+**Dataset Summary**
+- **Instances:** 20,640  
+- **Features:** 9 numeric attributes  
+- **Target:** `MedHouseVal` (Median House Value)
+
+**Features include:**
+1. `MedInc` – Median income in block group  
+2. `HouseAge` – Median house age  
+3. `AveRooms` – Average number of rooms per household  
+4. `AveBedrms` – Average number of bedrooms per household  
+5. `Population` – Population of block group  
+6. `AveOccup` – Average number of household members  
+7. `Latitude` – Block group latitude  
+8. `Longitude` – Block group longitude  
+9. `MedHouseVal` – Target variable  
+
+No missing values or data quality issues were found.
+
+---
+
+## 🔍 Workflow Summary
+
+### **1️⃣ Data Loading and Exploration**
+- Loaded dataset using `fetch_california_housing(as_frame=True)`
+- Converted to a pandas DataFrame
+- Explored data using:
+  - `info()` for data types  
+  - `describe()` for summary stats  
+  - `isnull().sum()` to check missing values  
+
+---
+
+### **2️⃣ Data Visualization**
+Visualized feature distributions using:
+- **Histograms** (`data_frame.hist()`)
+- **Boxenplots** (via seaborn)
+- **Pairplots** (`sns.pairplot()`) to explore correlations between features
+
+---
+
+### **3️⃣ Feature Selection**
+Selected the following predictors and target for model training:
+- **Predictors (X):** `MedInc`, `AveRooms`  
+- **Target (y):** `MedHouseVal`
+
+---
+
+### **4️⃣ Model Training**
+- Split data into training (80%) and testing (20%) sets using:
+  ```python
+  train_test_split(X, y, test_size=0.2, random_state=42)

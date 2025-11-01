@@ -73,5 +73,5 @@ nav:
       - Overview: project03/README.md
   - Project 04:
       - Overview: project04/README.md
-  #- Bonus Project 01:
-  #   - Overview: project05/README.md
+  - Bonus Project:
+    - Overview: bonusproject01/README.md
