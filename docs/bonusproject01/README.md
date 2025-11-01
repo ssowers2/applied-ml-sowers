@@ -100,7 +100,5 @@ This dataset is clean, balanced, and ideal for demonstrating supervised classifi
 - matplotlib  
 - scikit-learn  
 
----
-
 ## Notebook Link
-[View Full Notebook on GitHub →](../../notebooks/bonusproject01/mlbonus01_sowers.ipynb)
+[View Full Notebook on GitHub →](https://github.com/ssowers2/applied-ml-sowers/blob/main/notebooks/bonusproject01/mlbonus01_sowers.ipynb)

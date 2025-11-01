@@ -80,3 +80,6 @@ Stratification is important because survival is not evenly split across the data
 - seaborn
 - matplotlib
 - scikit-learn
+
+## Notebook Link
+[View Full Notebook on GitHub →](https://github.com/ssowers2/applied-ml-sowers/blob/main/notebooks/project02/ml02_sowers.ipynb)

@@ -74,3 +74,6 @@ Selected the following predictors and target for model training:
 - Split data into training (80%) and testing (20%) sets using:
   ```python
   train_test_split(X, y, test_size=0.2, random_state=42)
+
+## Notebook Link
+[View Full Notebook on GitHub →](https://github.com/ssowers2/applied-ml-sowers/blob/main/notebooks/project01/ml01.ipynb)
