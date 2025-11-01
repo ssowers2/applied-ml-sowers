@@ -1,4 +1,4 @@
-# Bonus Project: Wine Data Classification
+# Bonus Project: 🔹Sabriya Sowers' Wine Classification Analysis 🔹
 
 **Author:** Sabriya Sowers  
 **Date:** October 31, 2025  
