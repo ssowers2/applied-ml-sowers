@@ -8,8 +8,8 @@
 
 site_name: Applied ML Projects
 site_url: https://ssowers2.github.io/applied-ml-sowers/
-repo_url: https://github.com/ssowers2/applied-ml-sowers
-site_description: Professional applied ML project
+repo_url: https://github.com/ssowers2/applied-ml-sowers/tree/main
+site_description: Professional Applied ML Projects
 site_author: Sabriya Sowers
 docs_dir: docs
 site_dir: site
@@ -73,3 +73,5 @@ nav:
       - Overview: project03/README.md
   - Project 04:
       - Overview: project04/README.md
+  #- Bonus Project 01:
+  #   - Overview: project05/README.md
