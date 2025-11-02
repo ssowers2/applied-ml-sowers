@@ -1,12 +1,20 @@
-# Bonus Project: Wine Classification Analysis
+# 🔹 Sabriya Sowers’ Bonus Wine Data Analysis 🔹
 
 **Author:** Sabriya Sowers  
 **Date:** October 31, 2025  
 
-## Project Overview
-This bonus project extends the Titanic analysis by applying similar data exploration and modeling techniques to the **Wine Dataset** available in `scikit-learn`.  
-The dataset includes 178 samples of wines, each measured across 13 chemical features (e.g., alcohol content, color intensity, phenolic compounds).  
-The goal is to explore the data, visualize relationships, and identify which variables best distinguish between the three wine classes.
+## Introduction
+
+This project uses the **Wine Dataset** available in `scikit-learn`, which contains measurements of various chemical properties for three different wine types.  
+
+The goal is to explore the dataset, identify relationships between features, and determine which variables best help classify the wines into their respective groups.
+
+The workflow includes:
+1. Inspecting and cleaning the data  
+2. Exploring feature relationships through visualizations  
+3. Selecting input features (X) and target (y)  
+4. Splitting the data into training and test sets  
+5. Reflecting on insights from the analysis
 
 ---
 
@@ -34,8 +42,6 @@ There are no missing values or duplicates, and all data types are numeric.
 ---
 
 ## Key Findings and Visualizations
-
-# Useful site to select colors https://www.color-hex.com/color/4b0082
 
 ### 🟣 Correlation Heatmap
 Revealed that **flavonoids** and **total_phenols** are strongly correlated (r ≈ 0.86), indicating chemical similarity.
@@ -79,22 +85,6 @@ The stratified split produced nearly identical class distributions in training a
 
 ---
 
-### Reflections
-
-**1. What did you learn from this dataset compared to Titanic?**  
-This project focused more on numbers and measurements instead of people and categories. It helped me see how chemical features like alcohol, color intensity, and proline can be just as meaningful for prediction as social features were in the Titanic dataset.  
-
-**2. How did data quality affect your process?**  
-The Wine dataset didn’t need cleaning, so I could go straight into visualization and analysis. That made it easier to focus on relationships between features instead of fixing missing data.  
-
-**3. What did your visuals reveal?**  
-Color intensity and proline stood out as the most useful predictors since they separated the wine classes really well. Seeing those differences in scatter plots made it easier to understand how classification works.  
-
-**4. What was your overall takeaway?**  
-Both projects followed the same process—inspect, clean, visualize, and split the data—but they applied it to totally different problems. That showed me how flexible data science can be across fields.
-
----
-
 ## Tools and Libraries
 - Python  
 - pandas  
@@ -102,3 +92,5 @@ Both projects followed the same process—inspect, clean, visualize, and split t
 - seaborn  
 - matplotlib  
 - scikit-learn  
+
+> **Note:** Useful site for selecting colors — [color-hex.com/color/4b0082](https://www.color-hex.com/color/4b0082)

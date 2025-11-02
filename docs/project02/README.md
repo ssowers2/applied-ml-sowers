@@ -1,4 +1,4 @@
-# 🔹Sabriya Sowers' Titanic Survival Analysis🔹
+# Titanic Survival Analysis
 
 **Author:** Sabriya Sowers  
 **Date:** October 30, 2025  
