@@ -16,10 +16,9 @@ Projects index:
   Predicting passenger survival using class, fare, age, sex, and family size.
 
 - [**Project 03: Titanic Survival Classification – Decision Tree, SVM, and Neural**](project03/README.md)  
-  Placeholder for the next model. This will include feature engineering and model evaluation.
+  Comparing three classification models to understand what influenced survival on the Titanic.
 
 - [**Project 04: Coming Soon**](project04/README.md)  
-  Placeholder for an additional project (to be finalized).
   
 - [**Bonus Project: Wine Data Analysis**](bonusproject01/README.md)  
   Analyzing chemical properties of wines using the scikit-learn Wine dataset to explore patterns and class separation.
