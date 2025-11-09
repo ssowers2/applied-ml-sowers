@@ -67,7 +67,23 @@ In this project:
 ---
 
 ## Final Thoughts & Insights
+| Model Type           | Case   | Features Used         | Accuracy | Precision | Recall | F1-Score | Notes |
+|----------------------|--------|-----------------------|----------|-----------|--------|----------|-------|
+| Decision Tree        | Case 1 | alone                 | 63%      | 64%       | 63%    | 63%      | Performs similarly to SVM; simple split on alone is limited. |
+| Decision Tree        | Case 2 | age                   | 61%      | 58%       | 61%    | 55%      | Age alone did not predict survival well (especially survivors). |
+| Decision Tree        | Case 3 | age + family_size     | 59%      | 57%       | 59%    | 58%      | Slight overfitting, training was higher than test accuracy. |
+| SVM (RBF Kernel)     | Case 1 | alone                 | 63%      | 64%       | 63%    | 63%      | Single feature gives limited separation. |
+| SVM (RBF Kernel)     | Case 2 | age                   | 63%      | 66%       | 63%    | 52%      | Improved precision but low recall for survivors. |
+| SVM (RBF Kernel)     | Case 3 | age + family_size     | 63%      | 66%       | 63%    | 52%      | Extra feature didn’t noticeably improve performance. |
+| Neural Network (MLP) | Case 3 | age + family_size     | 66%      | 65%       | 66%    | 65%      | Best performance overall, captured more complex patterns. |
 
+## Challenges Faced
+One challenge in this project was identifying features that made a meaningful impact on survival. Some features, such as `age` or `alone`, did not strongly predict survival on their own, which led to lower recall (especially for survivors). Another challenge was avoiding overfitting, particularly with the Decision Tree in Case 3 where training accuracy was higher than test accuracy. This showed the importance of testing models on unseen data to check generalization.
+
+---
+
+## Next Steps
+To improve performance, the next step would be to include additional features such as passenger class (`pclass`), fare, or gender (`sex`), which research shows are more strongly linked to survival. I could also experiment with parameter tuning, such as adjusting SVM kernel settings or changing the number of hidden units in the Neural Network. This may help increase accuracy and create clearer decision boundaries.
 
 - The **Neural Network performed best**, but only slightly better than SVM.  
 - **Age alone** was not a strong predictor.  
