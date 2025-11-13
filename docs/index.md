@@ -18,7 +18,8 @@ Projects index:
 - [**Project 03: Titanic Survival Classification – Decision Tree, SVM, and Neural Network**](project03/README.md)  
   Comparing three classification models to understand what influenced survival on the Titanic.
 
-- [**Project 04: Coming Soon**](project04/README.md)  
+- [**Project 04: Predicting a Continuous Target with Regression (Titanic)**](project04/README.md)  
+  Predicting passenger fare using multiple regression approaches, comparing feature sets and models such as Linear, Ridge, Elastic Net, and Polynomial Regression.
   
 - [**Bonus Project: Wine Data Analysis**](bonusproject01/README.md)  
   Analyzing chemical properties of wines using the scikit-learn Wine dataset to explore patterns and class separation.
