@@ -43,3 +43,13 @@ Case 4: selected features (e.g., pclass, age, family_size)
 4. .\.venv\Scripts\Activate
 5. uv add --dev pre-commit ruff
 6. uv run python --version
+
+Choosing Options
+When working with regression models, especially those with multiple input features, we may run into overfitting — where a model fits the training data too closely and performs poorly on new data. To prevent this, we can apply regularization.
+
+Regularization adds a penalty to the model’s loss function, discouraging it from using very large weights (coefficients). This makes the model simpler and more likely to generalize well to new data.
+
+In general: 
+If the basic linear regression is overfitting, try Ridge.
+If you want the model to automatically select the most important features, try Lasso.
+If you want a balanced approach, try Elastic Net.
