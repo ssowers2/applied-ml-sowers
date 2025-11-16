@@ -20,6 +20,9 @@ Projects index:
 
 - [**Project 04: Predicting a Continuous Target with Regression (Titanic)**](project04/README.md)  
   Predicting passenger fare using multiple regression approaches, comparing feature sets and models such as Linear, Ridge, Elastic Net, and Polynomial Regression.
-  
+
+- [**Project 05: Ensemble Machine Learning – Wine Dataset**](project05/README.md)  
+  Ensemble machine learning applied to the Wine dataset to compare model performance and evaluate whether model aggregation improves predictions.
+
 - [**Bonus Project: Wine Data Analysis**](bonusproject01/README.md)  
   Analyzing chemical properties of wines using the scikit-learn Wine dataset to explore patterns and class separation.
