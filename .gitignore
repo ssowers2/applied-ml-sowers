@@ -89,6 +89,7 @@ site/
 # Ignore example notebooks + data
 /notebooks/example01/
 /notebooks/example02/
+/notebooks/labW5/
 
 # ----------------------------------------
 # Data files for assignments
